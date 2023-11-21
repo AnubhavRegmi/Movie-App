@@ -1,0 +1,64 @@
+/** Reset Css */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+:root{
+  --background-color: #111827;
+  --primary-text-color:#99f6e4;
+  
+}
+
+body{
+  background-color: var(--background-color);
+  overflow-x: hidden;
+}
+.main{
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 6rem 2rem 2rem 5rem;
+  
+}
+
+ .header{
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  position: fixed;
+  width: 100vw;
+  background-color: #111827;
+  z-index: 1;
+  
+} 
+
+.heading1{
+  color: #52c211;
+  
+}
+.button input {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  position: relative;
+  top: 100px; 
+  
+}
+.button button:hover {
+  background-color: #d6da14;
+  color: #111827;
+}
+
+.but{
+  border-radius: 6px;
+  background-color: ;
+}

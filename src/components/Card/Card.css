@@ -1,0 +1,34 @@
+.card-container {
+    width: 18rem;
+    background-color: #27272a;
+    box-shadow: 4px 2px 4px 2px rgba(0,0,0,.8);
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+.card-img-container{
+    width: 100%;
+    height: 20rem;
+
+}
+.card-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: center;
+}
+
+.details{
+    color: var(--primary-text-color);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 6px;
+}
+.title{
+    font-size: 1.3rem;
+}
+.rating{
+    display: flex;
+    justify-content: space-between;
+}
